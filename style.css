@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bg{
+  /* width: 100%; */
+  max-width: 1400px;
+}
+
+.wrapper{
+  background: rgb(51, 50, 50);
+  width: 100vw;
+  display: flex;
+  justify-content: center;  
+}
+
+
+.header{
+    padding: 0 12.5%;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+.midHeader{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.main{
+    /* padding: 0 12.5%; */
+    width: 100%;
+}
+
+.heroSection{
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  padding: 2% 12.5%;
+  color: white;
+}
+
+.heroImg{
+    height:25rem;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 50%;
+    justify-content: center;
+}
+
+.heroImgDiv{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.heroSubText{
+    font-size: 20px;
+}
+
+.heroTitle{
+    font-size: 60px;
+    width: 400px;
+}
+
+.btn1{
+  padding: 7px;
+  font-size: 20px;
+}
+
+.btn2{
+  padding: 7px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: solid white 1px;
+}
+
+.heroBtn{
+  display: flex;
+  gap: 20px;
+}
+
+.footer{
+    width: 100%;
+    padding: 2% 12.5%;
+    display: flex;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-contact p {
+    margin: 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .icon-facebook {
+    background-image: url('facebook-icon.png');
+    background-size: cover;
+  }
+  
+  .icon-twitter {
+    background-image: url('twitter-icon.png');
+    background-size: cover;
+  }
+  
+  .icon-instagram {
+    background-image: url('instagram-icon.png');
+    background-size: cover;
+  }
+  
+
+
+
+
+
+.aboutSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 12.5%;
+    color: white;
+    gap: 15px;
+}
+
+.ASBody{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ASBody h2{
+  font-size: 35px;
+}
+
+.ASBody p{
+  font-size: 25px;
+}
+
+.MarketingSection{
+  width: 100%;
+  /* background-color: rgb(105, 105, 106); */
+  padding: 2% 12.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.MSBody{
+  text-align: center;
+}
+
+.MSBodytext{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.MSBody h2{
+  font-size: 35px;
+}
+
+.MSBody h3{
+  font-size: 20px;
+}
+
+.boxes{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.box{
+  background-color: rgb(200, 200, 200);
+  padding-inline: 10px;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  transition:ease-in;
+}
+
+.box:hover{
+  background-color: rgb(157, 157, 157);
+  transition: all ease-in;
+}
+
+.box ul{
+  list-style: none;
+}
+
+.box ul li {
+  font-size: 30px;
+}
+
+.priceContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+button {
+  padding: 8px;
+  border-radius: 8px;
+}
+
